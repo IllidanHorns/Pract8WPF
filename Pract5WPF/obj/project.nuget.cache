@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+rL9aGhyVT5CbI7ep/pjJPCN8at3okfbL68PTXprhP8yu96qSQfUADHVVReW2df2kVu/3HTYpcNbXeEu+MUrUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\illid\\source\\repos\\Pract5WPF\\Pract5WPF\\Pract5WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\illid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

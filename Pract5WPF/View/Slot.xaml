@@ -1,0 +1,121 @@
+﻿<Window x:Class="Pract5WPF.View.Slot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pract5WPF"
+        mc:Ignorable="d"
+        Title="Slot1" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.0*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Image
+        Source="Images/wild_west1.jpg"
+        Grid.RowSpan="4"
+            Stretch="Fill"
+        />
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock
+                x:Name="balance_message"
+                Text="Баланс - "
+                Grid.Column="0"
+                TextAlignment="Center"
+                Padding="5"
+                FontSize="35"
+                FontStyle="Italic"
+                FontWeight="Heavy" 
+                Foreground="AntiqueWhite" 
+                FontFamily="Franklin Gothic Heavy"
+                />
+
+            <TextBlock
+                x:Name="balance_count"
+                Grid.Column="1"
+                TextAlignment="Center"
+                Padding="5"
+                FontSize="35"
+                FontStyle="Italic"
+                FontWeight="Heavy" 
+                Foreground="Yellow" 
+                FontFamily="Franklin Gothic Heavy"
+                Text="{Binding Balancee}"
+                />
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="count1" Grid.Column="0" Margin="5" TextAlignment="Center" VerticalAlignment="Center" FontSize="100" Text="{Binding Value1, Mode=TwoWay}" FontWeight="Heavy" Foreground="Brown"/>
+            <TextBlock x:Name="count2" Grid.Column="1" Margin="5" TextAlignment="Center" VerticalAlignment="Center" FontSize="100" Text="{Binding Value2, Mode=TwoWay}" FontWeight="Heavy" Foreground="Brown"/>
+            <TextBlock x:Name="count3" Grid.Column="2" Margin="5" TextAlignment="Center" VerticalAlignment="Center" FontSize="100" Text="{Binding Value3, Mode=TwoWay}" FontWeight="Heavy" Foreground="Brown"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="result_of_spin" Grid.Column="0" Text="Ура!" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="35" Foreground="AntiqueWhite" FontWeight="Heavy" FontFamily="Franklin Gothic Heavy"/>
+            <TextBlock x:Name="your_result" Grid.Column="1" Text="Ваш выигрыш - " Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" Foreground="AntiqueWhite" FontWeight="Heavy" FontFamily="Franklin Gothic Heavy"/>
+            <TextBlock x:Name="result_of_win_count" Grid.Column="2" Text="{Binding Win, Mode=TwoWay}" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="48" Foreground="Yellow" FontWeight="Heavy" FontFamily="Franklin Gothic Heavy"/>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="1.8*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="minus_stavka" Background="Transparent" Content="-" FontSize="40" FontWeight="Heavy" Foreground="White" Command="{Binding Minus_rate_b}"/>
+            <Button Grid.Column="2" x:Name="plus_stavka" Background="Transparent" Content="+" FontSize="40" FontWeight="Heavy" Foreground="White" Command="{Binding Plus_rate_b}"/>
+            <TextBlock
+                x:Name="stavka"
+                Text="{Binding Rate, Mode=TwoWay}"
+                Grid.Column="1"
+                TextAlignment="Center"
+                Padding="5"
+                FontSize="30"
+                FontStyle="Italic"
+                FontWeight="Heavy" 
+                Foreground="AntiqueWhite" 
+                FontFamily="Franklin Gothic Heavy"
+                />
+            <Button
+                x:Name="exit"
+                Grid.Column="5"
+                Background="Transparent"
+                Content="Выйти"
+                FontSize="35"
+                FontStyle="Italic"
+                FontWeight="Heavy" Foreground="AntiqueWhite" FontFamily="Franklin Gothic Heavy" Click="exit_Click"
+                />
+            <Button
+                x:Name="start_spin"
+                Grid.Column="3"
+                Background="Transparent"
+                Content="=Спин="
+                FontSize="40"
+                FontStyle="Italic"
+                FontWeight="Heavy" Foreground="AntiqueWhite" FontFamily="Franklin Gothic Heavy"
+                Command="{Binding Spin}"
+                />
+        </Grid>
+    </Grid>
+</Window>

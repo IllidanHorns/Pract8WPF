@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\Images\back_start2.jpg" />
+    <None Remove="View\Images\number1.jpg" />
+    <None Remove="View\Images\numbers2.jpg" />
+    <None Remove="View\Images\old_west.jpg" />
+    <None Remove="View\Images\old_west1.jpg" />
+    <None Remove="View\Images\old_west2.jpg" />
+    <None Remove="View\Images\wild_west1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Images\back_start2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Images\number1.jpg" />
+    <Resource Include="View\Images\numbers2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Images\old_west.jpg" />
+    <Resource Include="View\Images\old_west1.jpg" />
+    <Resource Include="View\Images\old_west2.jpg" />
+    <Resource Include="View\Images\wild_west1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
