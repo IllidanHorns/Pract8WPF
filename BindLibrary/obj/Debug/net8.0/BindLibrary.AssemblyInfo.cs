@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BindLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12f484cfd505a9fdf9dff647dd7dc10e529d4f38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f3fab368ff8d085c6262294b932127fd3e1fea")]
 [assembly: System.Reflection.AssemblyProductAttribute("BindLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BindLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

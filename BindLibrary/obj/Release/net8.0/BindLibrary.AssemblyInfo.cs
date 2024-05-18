@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("JSON_CustomLibrary")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BindLibrary")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f3fab368ff8d085c6262294b932127fd3e1fea")]
-[assembly: System.Reflection.AssemblyProductAttribute("JSON_CustomLibrary")]
-[assembly: System.Reflection.AssemblyTitleAttribute("JSON_CustomLibrary")]
+[assembly: System.Reflection.AssemblyProductAttribute("BindLibrary")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BindLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

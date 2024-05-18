@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("JSON_CustomLibrary")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Pract5WPF")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f3fab368ff8d085c6262294b932127fd3e1fea")]
-[assembly: System.Reflection.AssemblyProductAttribute("JSON_CustomLibrary")]
-[assembly: System.Reflection.AssemblyTitleAttribute("JSON_CustomLibrary")]
+[assembly: System.Reflection.AssemblyProductAttribute("Pract5WPF")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Pract5WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
