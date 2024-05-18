@@ -1,0 +1,13 @@
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\bin\Debug\net8.0\JSON_CustomLibrary.deps.json
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\bin\Debug\net8.0\JSON_CustomLibrary.dll
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\bin\Debug\net8.0\JSON_CustomLibrary.pdb
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.csproj.AssemblyReference.cache
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.AssemblyInfoInputs.cache
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.AssemblyInfo.cs
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.sourcelink.json
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.dll
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\refint\JSON_CustomLibrary.dll
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\JSON_CustomLibrary.pdb
+C:\Users\illid\source\repos\Pract5WPF\JSON_CustomLibrary\obj\Debug\net8.0\ref\JSON_CustomLibrary.dll

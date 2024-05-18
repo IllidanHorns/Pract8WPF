@@ -165,7 +165,7 @@ namespace Pract5WPF.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Pract5WPF;V1.0.0.0;component/view/slot2.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Pract5WPF;component/view/slot2.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Slot2.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

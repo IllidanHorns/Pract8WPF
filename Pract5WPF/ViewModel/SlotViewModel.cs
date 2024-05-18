@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Media.Media3D;
 using System.Xml.Serialization;
+using BindLib;
 
 namespace Pract5WPF.ViewModel
 {

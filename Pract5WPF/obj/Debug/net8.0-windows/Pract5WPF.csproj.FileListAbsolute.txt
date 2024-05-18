@@ -30,3 +30,7 @@ C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\obj\Debug\net8.0-windows\View\Sl
 C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\obj\Debug\net8.0-windows\Pract5WPF.csproj.AssemblyReference.cache
 C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\obj\Debug\net8.0-windows\Pract5WPF.csproj.CopyComplete
+C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\bin\Debug\net8.0-windows\JSON_CustomLibrary.dll
+C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\bin\Debug\net8.0-windows\JSON_CustomLibrary.pdb
+C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\bin\Debug\net8.0-windows\BindLib.dll
+C:\Users\illid\source\repos\Pract5WPF\Pract5WPF\bin\Debug\net8.0-windows\BindLib.pdb

@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using JSON_CustomLibrary;
+using BindLib;
 
 namespace Pract5WPF.ViewModel
 {
@@ -66,7 +68,7 @@ namespace Pract5WPF.ViewModel
                     if (Check.check_uniqueness(login) == true)
                     {
                         UserClass user = new UserClass(login, password, balance);
-                        JsonSave.Serialization(user);
+                        Json_save.Serialization(user);
                         MessageBox.Show("Пользователь успешно зарегестрирован!");
                     }
                     else

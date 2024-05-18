@@ -1,0 +1,6 @@
+C:\Users\illid\source\repos\Pract5WPF\BindLib\bin\Debug\BindLib.dll
+C:\Users\illid\source\repos\Pract5WPF\BindLib\bin\Debug\BindLib.pdb
+C:\Users\illid\source\repos\Pract5WPF\BindLib\obj\Debug\BindLib.csproj.AssemblyReference.cache
+C:\Users\illid\source\repos\Pract5WPF\BindLib\obj\Debug\BindLib.csproj.CoreCompileInputs.cache
+C:\Users\illid\source\repos\Pract5WPF\BindLib\obj\Debug\BindLib.dll
+C:\Users\illid\source\repos\Pract5WPF\BindLib\obj\Debug\BindLib.pdb

@@ -33,6 +33,6 @@ namespace Pract5WPF.View
             GameChange game_change_window = new GameChange(Login);
             game_change_window.Show();
             this.Close();
-        }
+        }   
     }
 }

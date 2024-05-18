@@ -1,0 +1,5 @@
+C:\Users\illid\source\repos\Pract5WPF\BindLibrary\obj\Debug\net8.0\BindLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\illid\source\repos\Pract5WPF\BindLibrary\obj\Debug\net8.0\BindLibrary.AssemblyInfoInputs.cache
+C:\Users\illid\source\repos\Pract5WPF\BindLibrary\obj\Debug\net8.0\BindLibrary.AssemblyInfo.cs
+C:\Users\illid\source\repos\Pract5WPF\BindLibrary\obj\Debug\net8.0\BindLibrary.csproj.CoreCompileInputs.cache
+C:\Users\illid\source\repos\Pract5WPF\BindLibrary\obj\Debug\net8.0\BindLibrary.sourcelink.json

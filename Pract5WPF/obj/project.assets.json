@@ -14,6 +14,28 @@
             "related": ".xml"
           }
         }
+      },
+      "BindLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BindLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BindLib.dll": {}
+        }
+      },
+      "JSON_CustomLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/JSON_CustomLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSON_CustomLibrary.dll": {}
+        }
       }
     }
   },
@@ -47,10 +69,22 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "BindLib/1.0.0": {
+      "type": "project",
+      "path": "../BindLib/BindLib.csproj",
+      "msbuildProject": "../BindLib/BindLib.csproj"
+    },
+    "JSON_CustomLibrary/1.0.0": {
+      "type": "project",
+      "path": "../JSON_CustomLibrary/JSON_CustomLibrary.csproj",
+      "msbuildProject": "../JSON_CustomLibrary/JSON_CustomLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "BindLib >= 1.0.0",
+      "JSON_CustomLibrary >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -80,7 +114,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\illid\\source\\repos\\Pract5WPF\\BindLib\\BindLib.csproj": {
+              "projectPath": "C:\\Users\\illid\\source\\repos\\Pract5WPF\\BindLib\\BindLib.csproj"
+            },
+            "C:\\Users\\illid\\source\\repos\\Pract5WPF\\JSON_CustomLibrary\\JSON_CustomLibrary.csproj": {
+              "projectPath": "C:\\Users\\illid\\source\\repos\\Pract5WPF\\JSON_CustomLibrary\\JSON_CustomLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

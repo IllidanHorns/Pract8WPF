@@ -23,6 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BindLib\BindLib.csproj" />
+    <ProjectReference Include="..\JSON_CustomLibrary\JSON_CustomLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="View\Images\back_start2.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

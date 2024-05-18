@@ -6,14 +6,15 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using JSON_CustomLibrary;
 
 namespace Pract5WPF.ViewModel.Helpers
 {
-    internal interface Check : JsonSave
+    internal interface Check
     {
         public static bool check_user(string login, string password)
         {
-            List<UserClass> user_list = Deserialization<UserClass>();
+            List<UserClass> user_list = Json_save.Deserialization<UserClass>();
             foreach (UserClass i in user_list)
             {
                 if (i.Name == login && i.Password == password)
@@ -26,7 +27,7 @@ namespace Pract5WPF.ViewModel.Helpers
 
         public static bool check_uniqueness(string login)
         {
-            List<UserClass> user_list = Deserialization<UserClass>();
+            List<UserClass> user_list = Json_save.Deserialization<UserClass>();
             foreach (UserClass i in user_list)
             {
                 if (i.Name == login)
@@ -63,7 +64,7 @@ namespace Pract5WPF.ViewModel.Helpers
 
         public class Balance_action
         {
-            static List<UserClass> user_list = Deserialization<UserClass>();
+            static List<UserClass> user_list = Json_save.Deserialization<UserClass>();
             public static double get_balance(string login)
             {
                 foreach (UserClass i in user_list)
@@ -85,12 +86,12 @@ namespace Pract5WPF.ViewModel.Helpers
                         if (action == "minus")
                         {
                                user_list[i].Balance -= value;
-                               JsonSave.Serialization(user_list);
+                                Json_save.Serialization(user_list);
                         }
                         else if (action == "plus")
                         {
                             user_list[i].Balance += value;
-                            JsonSave.Serialization(user_list);
+                            Json_save.Serialization(user_list);
                         }
                     }
                 }
